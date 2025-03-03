@@ -1,0 +1,15 @@
+### Get all people
+GET http://localhost:8000/api/people
+
+### Create new person
+POST http://localhost:8000/api/people
+Content-Type: application/json
+
+{
+  "name": "Daniela",
+  "instagram": "danichais",
+  "dob": "2003-01-01",
+  "gender": "female",
+  "interested_in": "males",
+  "photo_url": "/path/s3/danichais.png"
+} 
